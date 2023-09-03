@@ -1,0 +1,339 @@
+.header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 23px;
+}
+.header2{
+  gap: 23px;
+  justify-content: center;
+  align-items:center;
+  display: flex;
+  font-size: 16px;
+}
+.button12>button {
+  margin-top: -31px;
+  border: none;
+  border-radius: 12px;
+  background: none;
+  position: absolute;
+  background-color: rgba(121, 132, 192, 1);
+  color: white;
+  height: 36px;
+  width: 95px;
+  text-align: center;
+  margin-left: 61px;
+  font-size: 16px;
+}
+.header-img2>img{
+ margin-left: 12px;
+  position: absolute;
+}
+.header-img3{
+  margin-left: 80px;
+  margin-top: 4px;
+}
+.center-block{
+  background-color: black;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+.sereach>p{
+  color: rgba(255, 255, 255, 1);
+  margin-top: 14px;
+  margin-left: 1080px;
+ display: inline-block;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.header-img{
+  margin-right: 12px;
+}
+.magnifier-img>img{
+  margin-top: 1rem; 
+  margin-left: 66rem;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+.photo>img{
+ transform: scale(0.9);
+  margin-left: 255px;
+  border-radius: 19px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+}
+.third-block{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color:rgba(239, 240, 242, 1) ;
+  margin-top: 4rem;
+  border-radius: 19px;
+  margin-left: 12rem;
+  margin-right: -22rem;
+  padding-left: 243px;
+  width: 1000px;
+  margin-left: 900px;
+  }
+.text>p{
+  font-size: 36px;  
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-right: -27rem;
+  color: rgba(18, 23, 32, 1);
+  text-align: left;
+  margin: 3rem 0 0 -77rem;
+  margin-top: -117px;
+}
+.text2>p{
+  text-align: left;
+  margin: -8rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 3rem 0 0 -77rem;
+  margin-top: -10px;
+  font-size: 20px;
+}
+.text3>p{
+  margin: 3rem 0 0 -77rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 33px;
+  color: rgba(121, 132, 192, 1);
+}
+.button>button{
+  border-radius: 12px;
+  border: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(121, 132, 192, 1);
+  color: white;
+  margin: 3rem 0 0 -77rem;
+  margin-top: 81px;
+  height: 48px;
+  width: 177px;
+}
+.photo2>img{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 0 -77rem;
+  margin-top: 170px;
+}
+.photo3>img{
+  margin: 3rem 0 0 -77rem;
+  margin-top: 97px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1100px;
+}
+.category{
+  gap: 23px;
+  justify-content: center;
+  align-items:center;
+  display: flex;
+  font-size: 16px;
+  margin: 3rem 0 0 0rem;
+  position: absolute;
+ 
+}
+.filter{
+  margin-left: 123rem; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 12rem;
+  border: 1px solid rgba(239, 240, 242, 1);
+  border-radius: 16px;
+  width: 223px;
+  height: 48px;
+}
+.four-block{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 23px;
+  margin: 3rem 0 0 -60rem;
+  margin-top: -28px;
+}
+.category>p{
+  position: relative;
+	color: black;
+	cursor: pointer;
+
+	
+}
+.category>p:hover{
+  color: rgba(121, 132, 192, 1);
+}
+.category>p::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px; 
+  height: 2px; 
+  background-color: rgba(121, 132, 192, 1); 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+}
+.category>p:hover::after{
+  opacity: 1;
+}
+.five-block{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 23px;
+  margin: 3rem 0 0 -71rem;
+  margin-top: 21px;
+display: inline-block;
+}
+.text4>p{
+  position: absolute;
+  margin: 3rem 0 0 53rem;
+  font-size: 16px;
+  color: rgba(144, 149, 169, 1);
+  margin-top: -17px;
+}
+.text5>p{
+  font-size: 36px;
+  position: absolute;
+  color: rgba(18, 23, 32, 1);
+  margin: 3rem 0 0 53rem;
+  margin-top: 10px;
+}
+.text6>p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 141rem; 
+  margin-top: 15px;
+  
+}
+.cap-image>img{
+  position: absolute;
+  margin-left: 660px;
+  margin-top: 53px;
+}
+.user>img{
+position: absolute;
+margin-left: 660px;
+margin-top: 243px;
+}
+.cap>p{
+  position: absolute;
+  margin-left: 691px;
+  margin-top: 243px;
+  font-size: 16px;
+  gap: 8px;
+}
+.price>p{
+  position: absolute;
+  margin-left: 860px;
+  margin-top: 243px;
+  font-size: 16px;
+}
+.text8>p{
+  position: absolute;
+  margin-left: 660px;
+  margin-top: 275px;
+  color: rgba(144, 149, 169, 1);
+  font-size: 16px;
+}
+.text9>p{
+  position: absolute;
+  margin-left: 660px;
+  margin-top: 302px;
+  color: rgba(144, 149, 169, 1);
+  font-size: 16px;
+}
+.like>img{
+  position: absolute;
+  margin-left: 660px;
+  margin-top: 327px;
+  font-size: 16px;
+}
+.basket>img{
+  position: absolute;
+  margin-left: 693px;
+  margin-top: 327px;
+  font-size: 16px;
+}
+.red-cap>img{
+  position: absolute;
+  margin-left: 962px;
+  margin-top: 37px;
+}
+.picture3>img{
+  position: absolute;
+  margin-left: 962px;
+  margin-top: 268px;
+}
+.cap3>p{
+  position: absolute;
+  margin-left: 990px;
+  margin-top: 268px;
+  gap: 8px;
+}
+.price1>p{
+  position: absolute;
+  margin-left: 1111px;
+  margin-top: 268px;
+  color: rgba(235, 87, 131, 1);
+  text-decoration: line-through;
+  font-size: 16px;
+}
+.price2>p{
+  position: absolute;
+  margin-left: 1173px;
+  margin-top: 268px;
+}
+.text10>p{
+  position: absolute;
+  margin-left: 965px;
+  margin-top: 300px;
+  color: rgba(144, 149, 169, 1);
+  font-size: 16px;
+}
+.text11>p{
+  position: absolute;
+  margin-left: 965px;
+  margin-top: 328px;
+  color: rgba(144, 149, 169, 1);
+  font-size: 16px;
+}
+.like1{
+  position: absolute;
+  margin-left: 965px;
+  margin-top: 355px;
+}
+.add4>img{
+  position: absolute;
+  margin-left: 1002px;
+  margin-top: 355px;
+}
+
+
+
+
+
+

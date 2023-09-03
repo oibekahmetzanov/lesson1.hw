@@ -1,0 +1,39 @@
+ .size-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .size-buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    background-color: rgba(121, 132, 192, 1);
+    height: 47px;
+    width: 126px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+  }
+  
+  .person-card {
+    padding: 10px;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .person-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

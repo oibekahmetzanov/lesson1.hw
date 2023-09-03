@@ -1,0 +1,1024 @@
+.header-main-block {
+  height: 95px;
+  width: 1440px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.header-main-block .header-block {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.header-main-block .header-block .header-text {
+  display: flex;
+  gap: 20px;
+  margin-left: 10rem;
+  font-weight: 700;
+  position: relative;
+  color: black;
+  line-height: 1;
+  text-decoration: none;
+}
+.header-main-block .header-block .header-text .header-img1 {
+  display: flex;
+  margin-left: 5rem;
+  gap: 20px;
+}
+.header-main-block .header-block .header-text .header-img1 .header-button > button {
+  border: none;
+  background: none;
+  background-color: rgb(121, 132, 192);
+  height: 47px;
+  width: 126px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.middle-height-block {
+  width: 1440px;
+  height: 60px;
+  background-color: rgb(18, 23, 32);
+}
+.middle-height-block .middle-height-img1 {
+  text-align: left;
+  margin-left: 8rem;
+}
+.middle-height-block .middle-height-img1 > img {
+  margin-top: 20px;
+}
+.middle-height-block .middle-height-text1 {
+  color: gray;
+  margin-left: 3rem;
+  margin-top: -40px;
+  font-weight: 500;
+}
+
+.middle-block-inline {
+  width: 1140px;
+  height: 400px;
+  background-color: rgb(239, 240, 242);
+  display: flex;
+  margin-top: 3rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+.middle-block-inline .middle-block-img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.9 0.1);
+  margin-left: 20rem;
+}
+.middle-block-inline .middle-block-img1 > img {
+  border-radius: 15px;
+  background: none;
+}
+.middle-block-inline .middle-text1 > p {
+  text-align: left;
+  margin-left: -68rem;
+  font-size: 30px;
+  font-weight: 900;
+}
+.middle-block-inline .middle-text-option > p {
+  text-align: left;
+  margin-left: -68rem;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: -20px;
+}
+.middle-block-inline .middle-text-action > p {
+  text-align: left;
+  margin-left: -68rem;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: rgb(121, 132, 192);
+}
+.middle-block-inline .middle-button-block > button {
+  margin-left: -127rem;
+  font-size: 15px;
+  font-weight: 200;
+  border: none;
+  background-color: rgb(121, 132, 192);
+  height: 45px;
+  margin-top: 20px;
+  color: white;
+  width: 150px;
+  border-radius: 10px;
+}
+.middle-block-inline .middle-full-img {
+  margin-left: -68rem;
+  margin-top: 30px;
+  position: absolute;
+}
+.middle-block-inline .middle-full-img > img {
+  margin-left: 10px;
+}
+
+.context {
+  width: 1000px;
+  height: 63px;
+}
+.context .context-block {
+  display: flex;
+  gap: 20px;
+  margin-left: 10rem;
+  margin-top: 20px;
+}
+.context .context-block > p:hover {
+  border-bottom: 2px solid purple;
+  transition: width 0.3s ease-out;
+}
+
+.center-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 75rem;
+  position: absolute;
+}
+.center-block .center-block-text > p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9rem;
+  margin-top: -78rem;
+  color: rgb(144, 149, 169);
+  width: 203px;
+}
+.center-block .center-new-select > p {
+  color: Black;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 10rem;
+  margin-top: -75rem;
+  width: 203px;
+}
+.center-block .filter-select-price > p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 16rem;
+  position: absolute;
+  margin-top: -34rem;
+}
+.center-block .filter_assort-price {
+  margin-left: 24rem;
+  position: absolute;
+  margin-top: -35rem;
+  height: 50px;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  height: 300px;
+  width: 267px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 10rem;
+  border-radius: 14px;
+  margin-left: 10rem;
+}
+.card1 .card-new > img {
+  margin-top: -10rem;
+  position: absolute;
+  margin-left: 13rem;
+}
+.card1 .card-sale > img {
+  margin-left: 0rem;
+  position: absolute;
+}
+.card1 .card-name > p {
+  font-weight: 800;
+  font-size: 18px;
+  margin-left: 2rem;
+  position: absolute;
+  margin-top: -1px;
+}
+.card1 .card-price > p {
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-left: 10rem;
+  position: absolute;
+  font-size: 18px;
+  margin-top: -1px;
+  margin-top: -1px;
+}
+.card1 .card-opis > p {
+  text-align: left;
+  margin-top: 30px;
+  position: absolute;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: rgb(144, 149, 169);
+}
+.card1 .card-virus > img {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+.card1 .card-like > img {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+.card1 .card-button > button {
+  margin-top: 40rem;
+  margin-left: 30rem;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(121, 132, 192);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  width: 1400px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 65rem;
+}
+.category .category-text > p {
+  position: absolute;
+  margin-top: -5rem;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -43rem;
+}
+.category .categoty-all > p {
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 35rem;
+  color: rgb(121, 132, 192);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.category .category-img1 > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -43rem;
+  position: absolute;
+}
+.category .img1-text1 > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -43rem;
+  font-weight: 600;
+  margin-top: 18rem;
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.category .category-img2 > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -20rem;
+  margin-top: orem;
+  position: absolute;
+}
+.category .img2-text2 > p {
+  margin-left: -20rem;
+  margin-top: 17.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 20px;
+  position: absolute;
+}
+.category .category-img3 > img {
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 0rem;
+  position: absolute;
+}
+.category .img3-text3 > p {
+  position: absolute;
+  display: flex;
+  margin-left: 5rem;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18rem;
+}
+.category .category-img4 > img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 26rem;
+  margin-top: 0rem;
+  position: absolute;
+}
+.category .img4-text4 {
+  position: absolute;
+  display: flex;
+  margin-left: 40rem;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16.3rem;
+  margin-left: 26rem;
+}
+
+.brend {
+  margin-top: 108rem;
+  width: 1440px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brend .brend-text > p {
+  position: absolute;
+  margin-top: -18rem;
+  color: rgb(144, 149, 169);
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: -44rem;
+}
+.brend .brend-mission > p {
+  position: absolute;
+  margin-top: -15rem;
+  margin-left: -44rem;
+  font-size: 30px;
+  font-weight: 900;
+}
+.brend .brend-all > p {
+  position: absolute;
+  margin-top: -16rem;
+  margin-left: 33rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(144, 149, 169);
+  letter-spacing: 1px;
+}
+.brend .brend-img1 > img {
+  position: absolute;
+  margin-left: -44rem;
+  margin-top: -13rem;
+}
+.brend .brend-name > p {
+  position: absolute;
+  margin-left: -42rem;
+  margin-top: 6rem;
+  font-size: 23px;
+  gap: 10px;
+  font-weight: 600;
+  word-spacing: 2px;
+}
+.brend .brend-stars > img {
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: -42rem;
+}
+.brend .brend-opis > p {
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: -35rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.brend-img2 > img {
+  margin-left: 25rem;
+  display: flex;
+  margin-top: -27.25rem;
+}
+
+.brend-stars2 > img {
+  margin-left: 28rem;
+  display: flex;
+  margin-top: 6.5rem;
+}
+
+.brend-name2 > p {
+  display: flex;
+  margin-left: 28rem;
+  margin-top: -7rem;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.brend-opis2 > p {
+  display: flex;
+  margin-left: 35rem;
+  margin-top: -1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.brend-img3 > img {
+  display: flex;
+  margin-left: 49rem;
+  margin-top: -24.5rem;
+}
+
+.brend-stars3 > img {
+  display: flex;
+  margin-left: 50rem;
+  margin-top: 6.5rem;
+}
+
+.brend-name3 > p {
+  display: flex;
+  margin-left: 50rem;
+  margin-top: -6.8rem;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.brend-opis3 > p {
+  display: flex;
+  margin-left: 58rem;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: -1.4rem;
+}
+
+.brend-img4 > img {
+  display: flex;
+  margin-left: 70rem;
+  margin-top: -25rem;
+}
+
+.brend-stars4 > img {
+  display: flex;
+  margin-left: 72rem;
+  margin-top: 6.8rem;
+}
+
+.brend-name4 > p {
+  display: flex;
+  margin-left: 72rem;
+  margin-top: -6.8rem;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.brend-opis4 > p {
+  display: flex;
+  margin-left: 80rem;
+  margin-top: 5.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.originalist-select {
+  width: 1440px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+.originalist-select .original-text > p {
+  margin-top: -8rem;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: -43rem;
+}
+.originalist-select .section1 {
+  width: 267px;
+  height: 260px;
+  background-color: white;
+  margin-left: -43rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  border-radius: 10px;
+}
+.originalist-select .section1-img1 > img {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+.originalist-select .section1-text1 > p {
+  font-size: 28px;
+  text-align: center;
+}
+.originalist-select .section1-text-select {
+  color: rgb(144, 149, 169);
+  font-weight: 600;
+  text-align: center;
+}
+
+.section2 {
+  width: 267px;
+  height: 260px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 23rem;
+  background-color: white;
+  margin-top: -17.7rem;
+}
+.section2 .section2-img2 > img {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+.section2 .section2-text2 > p {
+  font-size: 28px;
+  text-align: center;
+}
+.section2 .section2-text-select2 {
+  color: rgb(144, 149, 169);
+  font-weight: 600;
+  text-align: center;
+}
+
+.section3 {
+  width: 267px;
+  height: 260px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45rem;
+  background-color: white;
+  margin-top: -16.4rem;
+}
+.section3 .section3-img3 > img {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+.section3 .section3-text3 > p {
+  font-size: 28px;
+  text-align: center;
+}
+.section3 .section3-text-select3 {
+  color: rgb(144, 149, 169);
+  font-weight: 600;
+  text-align: center;
+}
+
+.section4 {
+  width: 267px;
+  height: 260px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 67rem;
+  background-color: white;
+  margin-top: -16rem;
+}
+.section4 .section4-img4 > img {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+.section4 .section4-text4 > p {
+  font-size: 28px;
+  text-align: center;
+}
+.section4 .section4-text-select4 {
+  color: rgb(144, 149, 169);
+  font-weight: 600;
+  text-align: center;
+}
+
+.popular-brend {
+  height: 150px;
+  width: 1440px;
+  background-color: white;
+  margin-top: 15rem;
+}
+.popular-brend .popular-brend-new > p {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: -7rem;
+  margin-left: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.popular-brend .popular-all > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 72rem;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(121, 132, 192);
+  margin-top: -6.5rem;
+}
+.popular-brend .popular-img1 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.popular-brend .popular-img2 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+.popular-brend .popular-img3 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 28rem;
+}
+.popular-brend .popular-img4 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 41rem;
+}
+.popular-brend .popular-img5 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55rem;
+}
+.popular-brend .popular-img6 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 68rem;
+}
+
+.shoes {
+  width: 1440px;
+  height: 400px;
+  background-color: white;
+  margin-top: 15rem;
+}
+.shoes .shoes-main-text > p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(144, 149, 169);
+  letter-spacing: 1px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+  margin-left: 3rem;
+}
+.shoes .shoes-text > p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 3rem;
+  margin-top: -5rem;
+}
+.shoes .block1 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+.shoes .block-date1 > p {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-left: 3rem;
+  letter-spacing: 1px;
+  color: rgb(144, 149, 169);
+  font-weight: 500;
+}
+.shoes .block-new-br > p {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 17rem;
+  font-size: 23px;
+  font-weight: 600;
+}
+.shoes .block-opis1 > p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 19rem;
+  text-align: left;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  font-size: 17px;
+}
+.shoes .block2 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25rem;
+}
+.shoes .block-date2 > p {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13rem;
+  margin-left: 25rem;
+  letter-spacing: 1px;
+  color: rgb(144, 149, 169);
+  font-weight: 500;
+}
+.shoes .block-new-br2 > p {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 25rem;
+  margin-top: 14.25rem;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: left;
+}
+.shoes .block-opis2 > p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25rem;
+  margin-top: 20rem;
+  text-align: left;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  font-size: 17px;
+  text-align: left;
+}
+.shoes .block3 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25rem;
+  margin-left: 47rem;
+}
+.shoes .block-date3 > p {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-left: 47rem;
+  letter-spacing: 1px;
+  color: rgb(144, 149, 169);
+  font-weight: 500;
+}
+.shoes .block-new-br3 > p {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 47rem;
+  margin-top: 16.5rem;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: left;
+}
+.shoes .block-opis3 > p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47rem;
+  margin-top: 20rem;
+  text-align: left;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  font-size: 17px;
+  text-align: left;
+}
+.shoes .block4 > img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25rem;
+  margin-left: 69rem;
+}
+.shoes .block-date4 > p {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14rem;
+  margin-left: 69rem;
+  letter-spacing: 1px;
+  color: rgb(144, 149, 169);
+  font-weight: 500;
+}
+.shoes .block-new-br4 > p {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 69rem;
+  margin-top: 15.5rem;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: left;
+}
+.shoes .block-opis4 > p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 69rem;
+  margin-top: 18rem;
+  text-align: left;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  font-size: 17px;
+  text-align: left;
+}
+
+.footer {
+  width: 1440px;
+  height: 274px;
+  background-color: white;
+  margin-top: 10rem;
+}
+.footer .footer-main-text1 > p {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(18, 23, 32);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-top: -3rem;
+}
+.footer .footer-pad > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  margin-left: 5rem;
+  margin-top: -1rem;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.footer .footer-our-text > p {
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  margin-left: 17rem;
+  margin-top: -13rem;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.footer .footer-our-text2 > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  margin-left: 17rem;
+  margin-top: -2rem;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.footer .footer-account > p {
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  margin-top: -11.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 46rem;
+}
+.footer .footer-ac-text > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  margin-top: -2rem;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 46rem;
+}
+.footer .footer-servis > p {
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  margin-top: -11.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 28rem;
+}
+.footer .footer-ser-text > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(144, 149, 169);
+  margin-top: -2rem;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 28rem;
+}
+.footer .footer-number > p {
+  margin-left: 70rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: -12rem;
+}
+.footer .footer-page > p {
+  color: rgb(121, 132, 192);
+  font-weight: 500;
+  margin-left: 70rem;
+  margin-top: -9rem;
+  font-size: 25px;
+  position: absolute;
+}
+.footer .footer-num-img1 > img {
+  margin-left: 70rem;
+  margin-top: 2rem;
+}
+.footer .footer-inst-img2 > img {
+  margin-left: 72rem;
+  margin-top: -6.7rem;
+  position: absolute;
+}
+.footer .footer-down > p {
+  margin-top: 5rem;
+  font-size: 25px;
+  color: rgb(121, 132, 192);
+}
+.footer .footer-down2 > p {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 65rem;
+}/*# sourceMappingURL=main.css.map */
